@@ -1,22 +1,51 @@
 // nav btn
 
 @mixin nav-btn{
+display:block;
+color:$color-text;
+font-size:1.125em;
+font-weight:200;
+text-align: center;
+text-decoration: none;
+padding:.4em;
+@content;
+&:hover{
+  background-color:$color-secondary;
+  border-radius:5px;
+  font-weight:600;
+  color:$white;
+  }
+}
 
-    display:block;
-    color:$color-text;
-    font-size:1.125em;
-    font-weight:200;
-    text-align: center;
-    text-decoration: none;
-    padding:.4em;
-    @content;
+// responsive flex container
 
-      &:hover
-        {
-          background-color:$color-secondary;
-          border-radius:5px;
-          font-weight:600;
-          color:$white;
-        }
+@mixin flexy (
+$disp:null,
+$dir:null,
+$wrap:null,
+$just:null,
+$alself:null)
+{
+display:$disp;
+flex-direction: $dir;
+flex-wrap: $wrap;
+justify-content: $just;
+align-self: $alself;
+}
 
+// media queries
+
+@mixin mq ($breakpoint){
+
+  @if $breakpoint == 'tablet'{
+    @media (min-width:$breakpoint-tablet){
+      @content;
+  }
+ }
+
+  @else if $breakpoint == 'desktop'{
+    @media (min-width:$breakpoint-desktop){
+      @content;
+    }
+  }
 }

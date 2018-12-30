@@ -1,5 +1,5 @@
 // ======================================
-//  color - Variables
+//  Variables
 // ======================================
 
 // colors
@@ -34,14 +34,11 @@ $grid-col-7:#ec9fa3;
 $grid-cil-8:#fd9f85;
 
 
-// ======================================
-//  fonts - Variables
-// ======================================
-
 // Fonts
 $font-stack-primary: 'Raleway', sans-serif;
 $font-stack-secondary: 'Bree Serif', serif;
 
-// ======================================
-//  media queries - Variables
-// ======================================
+// breakpoints
+
+$breakpoint-tablet: 768px;
+$breakpoint-desktop:1024px;

@@ -341,7 +341,7 @@ template {
   font-family: "Raleway", sans-serif;
   margin: auto;
   width: 90%;
-  max-width: 1400px;
+  max-width: 1600px;
 }
 
 .headline--primary {
@@ -369,9 +369,10 @@ p {
   list-style: none;
   padding: 0;
 }
-@media (min-width: 480px) {
+@media (min-width: 768px) {
   .nav {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .nav li {
@@ -398,7 +399,7 @@ p {
   align-self: center;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 1024px) {
   .grid__row:first-child {
     flex-direction: row;
     justify-content: space-between;

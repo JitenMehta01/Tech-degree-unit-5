@@ -1,7 +1,6 @@
 // main header container styling
 .grid__row:first-child, .nav{
-  display:flex;
-  flex-direction: column;
+  @include flexy ($disp:flex,$dir:column);
     padding:2em;
 }
 
@@ -10,31 +9,27 @@
   margin-top:1.5em;
   list-style: none;
   padding:0;
-
-  @media (min-width:480px){
-    flex-direction:row;
+  @include mq ('tablet'){
+  @include flexy ($dir:row, $just:space-between);
   }
-
-    & li {
-          margin-left:.65em;
-          margin-right:.65em;
-
+  & li {
+    margin-left:.65em;
+    margin-right:.65em;
         }
-         a {
-          @include nav-btn;
+  a {
+    @include nav-btn;
         }
       }
 
 .grid__col--3:first-of-type{
-  align-self: center;
+  @include flexy ($alself:center);
 }
 
 // desktop nav
 
 .grid__row:first-child{
-  @media (min-width:480px){
-    flex-direction:row;
-    justify-content:space-between;
+  @include mq ('desktop'){
+    @include flexy ($dir:row, $just:space-between);
     padding:4em;
   }
 }
