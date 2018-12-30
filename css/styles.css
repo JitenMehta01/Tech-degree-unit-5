@@ -361,9 +361,6 @@ p {
 .grid__row:first-child, .nav {
   display: flex;
   flex-direction: column;
-}
-
-.grid__row:first-child {
   padding: 2em;
 }
 
@@ -385,7 +382,7 @@ p {
   display: block;
   color: #626262;
   font-size: 1.125em;
-  font-weight: 300;
+  font-weight: 200;
   text-align: center;
   text-decoration: none;
   padding: 0.4em;
