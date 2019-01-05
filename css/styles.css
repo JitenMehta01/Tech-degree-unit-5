@@ -335,33 +335,24 @@ template {
 }
 
 .container {
-  color: #626262;
+  color: #888;
   font-size: 1rem;
-  line-height: 1.5;
-  font-family: "Raleway", sans-serif;
+  line-height: 2em;
+  font-family: "Helvetica", Sans-Serif;
   margin: auto;
   width: 90%;
   max-width: 1600px;
 }
 
-.headline--primary {
-  color: #58e1c1;
-  font-family: "Bree Serif", serif;
-}
-
-.headline--secondary {
-  color: #626262;
-  font-weight: 300;
-}
-
 p {
-  margin-bottom: 1.25em;
+  font-size: 1.1em;
 }
 
 .grid__row:first-child, .nav {
   display: flex;
   flex-direction: column;
-  padding: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .nav {
@@ -375,24 +366,24 @@ p {
     justify-content: space-between;
   }
 }
-.nav li {
-  margin-left: 0.65em;
-  margin-right: 0.65em;
-}
 .nav a {
   display: block;
-  color: #626262;
+  color: #888;
+  background-color: none;
   font-size: 1.125em;
   font-weight: 200;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.4em;
+  padding: 0.7em;
+  border: none;
+}
+.nav a:hover {
+  font-weight: 600;
+  color: #fff;
 }
 .nav a:hover {
   background-color: #58e1c1;
-  border-radius: 5px;
-  font-weight: 600;
-  color: #fff;
 }
 
 .grid__col--3:first-of-type {
@@ -406,5 +397,184 @@ p {
     padding: 4em;
   }
 }
+
+.grid__col--12 > .card {
+  padding-bottom: 75px;
+}
+@media (min-width: 768px) {
+  .grid__col--12 > .card {
+    padding-bottom: 0;
+  }
+}
+
+.headline--primary {
+  font-size: 2em;
+  font-weight: 700;
+  padding-left: 5%;
+  color: #58e1c1;
+  margin: 0;
+  margin: 0;
+}
+
+.headline--secondary {
+  color: #888;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin: 2em 0;
+}
+
+.link {
+  color: #58e1c1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  padding-left: 1.7em;
+  border-left: 10px solid #58e1c1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.img--avatar {
+  display: block;
+  margin: auto;
+  border: none;
+  padding: 20px;
+  width: 60%;
+}
+
+.img--frame {
+  display: block;
+  margin: auto;
+  border: 1px solid #888;
+  padding: 10px;
+  width: 100%;
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 5px solid #58e1c1;
+  padding: 10px 0;
+  margin-bottom: 35px;
+}
+
+input[placeholder] {
+  font-weight: 600;
+}
+
+.btn--default {
+  display: block;
+  color: #fff;
+  background-color: #51ddfc;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 200;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7em;
+  margin-bottom: 20px;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--default:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--success {
+  display: block;
+  color: #fff;
+  background-color: #63cc82;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 200;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7em;
+  margin-bottom: 20px;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--success:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--error {
+  display: block;
+  color: #fff;
+  background-color: #e4757a;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 200;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7em;
+  margin-bottom: 20px;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--error:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--warning {
+  display: block;
+  color: #fff;
+  background-color: #fd7856;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 200;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7em;
+  margin-bottom: 20px;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--warning:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--info {
+  display: block;
+  color: #fff;
+  background-color: #927bc1;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 200;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.7em;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--info:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+/** btn--error
+
+btn--warning
+
+btn--info **/
 
 /*# sourceMappingURL=styles.css.map */

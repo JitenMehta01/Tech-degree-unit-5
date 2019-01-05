@@ -1,0 +1,62 @@
+// ======================================
+//  Buttons
+// ======================================
+
+.btn--default{
+ @include buttons($btn-width:100%,
+ $btn-bg-colour:$button-1,
+ $btn-text-color:$white,
+ $btn-margin:20px,
+ $btn-uppercase:uppercase
+ );
+}
+
+.btn--success{
+  @include buttons($btn-width:100%,
+  $btn-bg-colour:$button-2,
+  $btn-text-color:$white,
+  $btn-margin:20px,
+  $btn-uppercase:uppercase
+  );
+}
+
+.btn--error{
+  @include buttons($btn-width:100%,
+  $btn-bg-colour:$button-3,
+  $btn-text-color:$white,
+  $btn-margin:20px,
+  $btn-uppercase:uppercase
+  );
+}
+
+.btn--warning{
+  @include buttons($btn-width:100%,
+  $btn-bg-colour:$button-4,
+  $btn-text-color:$white,
+  $btn-margin:20px,
+  $btn-uppercase:uppercase
+  );
+}
+
+.btn--info{
+  @include buttons($btn-width:100%,
+  $btn-bg-colour:$button-5,
+  $btn-text-color:$white,
+  $btn-uppercase:uppercase
+  );
+}
+
+
+
+
+
+
+
+
+
+
+/** btn--error
+
+btn--warning
+
+btn--info **/

@@ -1,25 +1,26 @@
 // main header container styling
 .grid__row:first-child, .nav{
   @include flexy ($disp:flex,$dir:column);
-    padding:2em;
+    padding-top:2em;
+    padding-bottom:2em;
 }
 
 // li styling in nav
-.nav {
+.nav
+{
   margin-top:1.5em;
   list-style: none;
   padding:0;
   @include mq ('tablet'){
   @include flexy ($dir:row, $just:space-between);
   }
-  & li {
-    margin-left:.65em;
-    margin-right:.65em;
-        }
   a {
-    @include nav-btn;
-        }
+    @include buttons($btn-text-color:$color-text);
+      &:hover{
+        background-color:$color-secondary;
       }
+    }
+}
 
 .grid__col--3:first-of-type{
   @include flexy ($alself:center);

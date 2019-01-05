@@ -1,1 +1,15 @@
-/
+// ======================================
+//  Form
+// ======================================
+
+.form__label--hidden{
+display:none;
+}
+
+.form__input{
+  @include form-input
+}
+
+input[placeholder]{
+  font-weight:600;
+}

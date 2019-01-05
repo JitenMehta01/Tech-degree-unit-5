@@ -1,17 +1,29 @@
-// nav btn
+// buttons
 
-@mixin nav-btn{
+@mixin buttons(
+$btn-text-color:null,
+$btn-bg-colour:none,
+$btn-width:null,
+$btn-margin:null,
+$btn-uppercase:null
+)
+
+{
 display:block;
-color:$color-text;
+color:$btn-text-color;
+background-color: $btn-bg-colour;
+width:$btn-width;
 font-size:1.125em;
 font-weight:200;
+border-radius:5px;
 text-align: center;
 text-decoration: none;
-padding:.4em;
+padding:.7em;
+margin-bottom:$btn-margin;
+border:none;
+text-transform: $btn-uppercase;
 @content;
 &:hover{
-  background-color:$color-secondary;
-  border-radius:5px;
   font-weight:600;
   color:$white;
   }
@@ -32,6 +44,75 @@ flex-wrap: $wrap;
 justify-content: $just;
 align-self: $alself;
 }
+
+// images
+
+@mixin images(
+$img-brdr:none,
+$img-padding:none,
+$img-width:100%
+){
+display:block;
+margin:auto;
+border:$img-brdr;
+padding:$img-padding;
+width:$img-width;
+@content;
+}
+
+// h1 styling
+
+@mixin h1 {
+font-size:2em;
+font-weight:700;
+padding-left:5%;
+color:$color-secondary;
+margin:0;
+@content;
+}
+
+// h4 styling
+@mixin h4 {
+  color:$color-text;
+  font-weight:300;
+  font-size:1.3em;
+  margin: 2em 0;
+  @content;
+}
+
+
+// acnhor links styling
+
+@mixin link {
+  color:$color-secondary;
+  font-weight:700;
+  text-decoration: none;
+
+}
+
+// blockquote
+@mixin blockquote{
+font-size:1.5em;
+font-style:italic;
+padding-left:1.7em;
+border-left: 10px solid $color-secondary;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+
+// form
+
+@mixin form-input{
+  width:100%;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom: 5px solid $color-secondary;
+  padding: 10px 0;
+  margin-bottom:35px;
+}
+
 
 // media queries
 
