@@ -2,31 +2,34 @@
 
 @mixin buttons(
 $btn-text-color:null,
-$btn-bg-colour:none,
 $btn-width:null,
 $btn-margin:null,
-$btn-uppercase:null
+$btn-uppercase:null,
 )
 
 {
-display:block;
-color:$btn-text-color;
-background-color: $btn-bg-colour;
-width:$btn-width;
-font-size:1.125em;
-font-weight:200;
-border-radius:5px;
-text-align: center;
-text-decoration: none;
-padding:.7em;
-margin-bottom:$btn-margin;
-border:none;
-text-transform: $btn-uppercase;
-@content;
-&:hover{
-  font-weight:600;
-  color:$white;
+  @each $theme, $color in $ui-buttons{
+  .btn--#{$theme} {
+    background-color: $color;
+    }
   }
+  display:block;
+  color:$btn-text-color;
+  width:$btn-width;
+  font-size: em(18px);
+  font-weight:$font-weight--light;
+  border-radius:5px;
+  text-align: center;
+  text-decoration: none;
+  padding:em(12px);
+  margin-bottom:$btn-margin;
+  border:none;
+  text-transform: $btn-uppercase;
+  @content;
+  &:hover{
+    font-weight:$font-weight--bold;
+    color:$white;
+    }
 }
 
 // responsive flex container
@@ -63,9 +66,9 @@ width:$img-width;
 // h1 styling
 
 @mixin h1 {
-font-size:2em;
-font-weight:700;
-padding-left:5%;
+font-size: em(32px);
+font-weight:$font-weight--bold;
+padding-left: em(40px);
 color:$color-secondary;
 margin:0;
 @content;
@@ -74,8 +77,8 @@ margin:0;
 // h4 styling
 @mixin h4 {
   color:$color-text;
-  font-weight:300;
-  font-size:1.3em;
+  font-weight:$font-weight--light;
+  font-size:em(21px);
   margin: 2em 0;
   @content;
 }
@@ -92,9 +95,9 @@ margin:0;
 
 // blockquote
 @mixin blockquote{
-font-size:1.5em;
+font-size: em(23px);
 font-style:italic;
-padding-left:1.7em;
+padding-left:em(30px);
 border-left: 10px solid $color-secondary;
 border-top-left-radius: 5px;
 border-bottom-left-radius: 5px;
@@ -110,7 +113,7 @@ border-bottom-left-radius: 5px;
   border-right:0;
   border-bottom: 5px solid $color-secondary;
   padding: 10px 0;
-  margin-bottom:35px;
+  margin-bottom:em(35px);
 }
 
 

@@ -1,3 +1,9 @@
+// ======================================
+//  navigation
+// ======================================
+
+
+
 // main header container styling
 .grid__row:first-child, .nav{
   @include flexy ($disp:flex,$dir:column);
@@ -19,7 +25,7 @@
       &:hover{
         background-color:$color-secondary;
       }
-    }
+    } 
 }
 
 .grid__col--3:first-of-type{

@@ -9,13 +9,27 @@ $white:#fff;
 $color-text:#888;
 $color-secondary:#58e1c1; // teal
 
-// buttons
+// ================================================================
 
+// buttons
 $button-1:#51ddfc; // teal
 $button-2:#63cc82; // light green
 $button-3:#e4757a; //  pink
 $button-4:#fd7856; // orange
 $button-5:#927bc1; // purple
+
+// UI buttons MAPS
+
+$ui-buttons: (
+default:  $button-1,
+success:  $button-2,
+error:    $button-3,
+warning:  $button-4,
+info:     $button-5
+
+);
+
+// ================================================================
 
 // Grid systems
 
@@ -33,9 +47,26 @@ $grid-col-7:#ec9fa3;
 
 $grid-cil-8:#fd9f85;
 
+// ==========================================================
 
 // Fonts
 $font-stack-primary:  'Helvetica', Sans-Serif;
+
+//Font-weights
+
+$font-weight--thin:        100;
+$font-weight--light:       300;
+$font-weight--meduim:      400;
+$font-weight--bold:        600;
+$font-weight--extra-bold:  800;
+$font-weight--ultra-bold:  900;
+
+// Font-size + line height
+
+$base-font--size: 16px;
+$base--line--height: 24px;
+
+// ==========================================================
 
 // breakpoints
 

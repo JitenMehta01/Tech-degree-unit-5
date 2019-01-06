@@ -2,15 +2,16 @@
 //  Partial Imports
 // ======================================
 
-// mixins
-@import 'utilities/mixins';
+
 
 // Utilities
+@import 'utilities/mixins';
 @import 'utilities/variables';
+@import 'utilities/functions';
 
 // Base Styles
-@import 'base/normalise',
-  'base/base-styles';
+@import 'base/normalise';
+@import 'base/base-styles';
 
 // Components
 @import 'components/navigation';

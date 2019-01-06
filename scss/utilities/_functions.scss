@@ -1,0 +1,8 @@
+// ======================================
+//  Functions
+// ======================================
+
+// converting pixels to ems
+@function em ($target, $context:$base-font--size){
+  @return ($target / $context) * 1em;
+}
