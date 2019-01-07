@@ -1,68 +1,13 @@
-// ======================================
-//  Buttons
-// ======================================
 
-/// Default button ///
 
-.btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.btn-info
 
-{
- @include buttons($btn-width:100%,
- $btn-text-color:$white,
- $btn-margin:20px,
- $btn-uppercase:uppercase,
- $ui-buttons
- );
-
-}
-
-/***
-
-// Success Button //
-
-.btn--success{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-2,
-  $btn-text-color:$white,
-  $btn-margin:20px,
-  $btn-uppercase:uppercase
-  );
-}
-
-// Error Button //
-
-.btn--error{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-3,
-  $btn-text-color:$white,
-  $btn-margin:20px,
-  $btn-uppercase:uppercase
-  );
-}
-
-// Warning Button //
-
-.btn--warning{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-4,
-  $btn-text-color:$white,
-  $btn-margin:20px,
-  $btn-uppercase:uppercase
-  );
-}
-
-// Info Button //
-
-.btn--info{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-5,
-  $btn-text-color:$white,
-  $btn-uppercase:uppercase
-  );
-}
-
-***/
+ @each $theme, $color in $ui-buttons{
+   .btn--#{$theme}{
+     background-color: $color;
+     @include buttons($btn-width:100%,
+     $btn-text-color:$white,
+     $btn-margin: em(20px),
+     $btn-uppercase:uppercase
+     );
+     }
+   }

@@ -377,21 +377,6 @@ p {
   padding: 0.75em;
   border: none;
 }
-.nav a .btn--default {
-  background-color: #51ddfc;
-}
-.nav a .btn--success {
-  background-color: #63cc82;
-}
-.nav a .btn--error {
-  background-color: #e4757a;
-}
-.nav a .btn--warning {
-  background-color: #fd7856;
-}
-.nav a .btn--info {
-  background-color: #927bc1;
-}
 .nav a:hover {
   font-weight: 600;
   color: #fff;
@@ -410,6 +395,106 @@ p {
     justify-content: space-between;
     padding: 4em;
   }
+}
+
+.btn--default {
+  background-color: #51ddfc;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 300;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.75em;
+  margin-bottom: 1.25em;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--default:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--success {
+  background-color: #63cc82;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 300;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.75em;
+  margin-bottom: 1.25em;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--success:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--error {
+  background-color: #e4757a;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 300;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.75em;
+  margin-bottom: 1.25em;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--error:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--warning {
+  background-color: #fd7856;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 300;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.75em;
+  margin-bottom: 1.25em;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--warning:hover {
+  font-weight: 600;
+  color: #fff;
+}
+
+.btn--info {
+  background-color: #927bc1;
+  display: block;
+  color: #fff;
+  width: 100%;
+  font-size: 1.125em;
+  font-weight: 300;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.75em;
+  margin-bottom: 1.25em;
+  border: none;
+  text-transform: uppercase;
+}
+.btn--info:hover {
+  font-weight: 600;
+  color: #fff;
 }
 
 .grid__col--12 > .card {
@@ -485,149 +570,5 @@ p {
 input[placeholder] {
   font-weight: 600;
 }
-
-.btn--default,
-.btn--success,
-.btn--error,
-.btn--warning,
-.brn-info {
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 20px;
-  border: none;
-  text-transform: uppercase;
-}
-.btn--default .btn--default,
-.btn--success .btn--default,
-.btn--error .btn--default,
-.btn--warning .btn--default,
-.brn-info .btn--default {
-  background-color: #51ddfc;
-}
-.btn--default .btn--success,
-.btn--success .btn--success,
-.btn--error .btn--success,
-.btn--warning .btn--success,
-.brn-info .btn--success {
-  background-color: #63cc82;
-}
-.btn--default .btn--error,
-.btn--success .btn--error,
-.btn--error .btn--error,
-.btn--warning .btn--error,
-.brn-info .btn--error {
-  background-color: #e4757a;
-}
-.btn--default .btn--warning,
-.btn--success .btn--warning,
-.btn--error .btn--warning,
-.btn--warning .btn--warning,
-.brn-info .btn--warning {
-  background-color: #fd7856;
-}
-.btn--default .btn--info,
-.btn--success .btn--info,
-.btn--error .btn--info,
-.btn--warning .btn--info,
-.brn-info .btn--info {
-  background-color: #927bc1;
-}
-.btn--default .btn--default,
-.btn--success .btn--default,
-.btn--error .btn--default,
-.btn--warning .btn--default,
-.brn-info .btn--default {
-  background-color: #51ddfc;
-}
-.btn--default .btn--success,
-.btn--success .btn--success,
-.btn--error .btn--success,
-.btn--warning .btn--success,
-.brn-info .btn--success {
-  background-color: #63cc82;
-}
-.btn--default .btn--error,
-.btn--success .btn--error,
-.btn--error .btn--error,
-.btn--warning .btn--error,
-.brn-info .btn--error {
-  background-color: #e4757a;
-}
-.btn--default .btn--warning,
-.btn--success .btn--warning,
-.btn--error .btn--warning,
-.btn--warning .btn--warning,
-.brn-info .btn--warning {
-  background-color: #fd7856;
-}
-.btn--default .btn--info,
-.btn--success .btn--info,
-.btn--error .btn--info,
-.btn--warning .btn--info,
-.brn-info .btn--info {
-  background-color: #927bc1;
-}
-.btn--default:hover,
-.btn--success:hover,
-.btn--error:hover,
-.btn--warning:hover,
-.brn-info:hover {
-  font-weight: 600;
-  color: #fff;
-}
-
-/***
-
-// Success Button //
-
-.btn--success{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-2,
-  $btn-text-color:$white,
-  $btn-margin:20px,
-  $btn-uppercase:uppercase
-  );
-}
-
-// Error Button //
-
-.btn--error{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-3,
-  $btn-text-color:$white,
-  $btn-margin:20px,
-  $btn-uppercase:uppercase
-  );
-}
-
-// Warning Button //
-
-.btn--warning{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-4,
-  $btn-text-color:$white,
-  $btn-margin:20px,
-  $btn-uppercase:uppercase
-  );
-}
-
-// Info Button //
-
-.btn--info{
-  @include buttons($btn-width:100%,
-  $btn-bg-colour:$button-5,
-  $btn-text-color:$white,
-  $btn-uppercase:uppercase
-  );
-}
-
-***/
 
 /*# sourceMappingURL=styles.css.map */

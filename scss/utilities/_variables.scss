@@ -12,21 +12,20 @@ $color-secondary:#58e1c1; // teal
 // ================================================================
 
 // buttons
-$button-1:#51ddfc; // teal
-$button-2:#63cc82; // light green
-$button-3:#e4757a; //  pink
-$button-4:#fd7856; // orange
-$button-5:#927bc1; // purple
+$default:#51ddfc; // teal
+$success:#63cc82; // light green
+$error:#e4757a; //  pink
+$warning:#fd7856; // orange
+$info:#927bc1; // purple
 
 // UI buttons MAPS
 
-$ui-buttons: (
-default:  $button-1,
-success:  $button-2,
-error:    $button-3,
-warning:  $button-4,
-info:     $button-5
-
+$ui-buttons:(
+default:  $default,
+success:  $success,
+error:    $error,
+warning:  $warning,
+info:     $info
 );
 
 // ================================================================

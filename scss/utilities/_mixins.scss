@@ -8,11 +8,7 @@ $btn-uppercase:null,
 )
 
 {
-  @each $theme, $color in $ui-buttons{
-  .btn--#{$theme} {
-    background-color: $color;
-    }
-  }
+
   display:block;
   color:$btn-text-color;
   width:$btn-width;
