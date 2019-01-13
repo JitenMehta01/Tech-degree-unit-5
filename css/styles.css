@@ -571,4 +571,8 @@ input[placeholder] {
   font-weight: 600;
 }
 
+.grid__row {
+  dislay: flex;
+}
+
 /*# sourceMappingURL=styles.css.map */

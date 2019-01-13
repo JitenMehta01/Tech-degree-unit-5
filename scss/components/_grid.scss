@@ -1,0 +1,14 @@
+.grid__row{
+  dislay:flex;
+}
+
+@each $theme, $color in $grid-buttons{
+  .grid__col--#{$theme}{
+    background-color: $color;
+    @include buttons($btn-width:100%,
+    $btn-text-color:$white,
+    $btn-margin: em(20px),
+    $btn-uppercase:uppercase
+    );
+    }
+  }
