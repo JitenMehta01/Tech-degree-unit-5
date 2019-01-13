@@ -64,7 +64,7 @@ width:$img-width;
 @mixin h1 {
 font-size: em(32px);
 font-weight:$font-weight--bold;
-padding-left: em(40px);
+padding-left: em(20px);
 color:$color-secondary;
 margin:0;
 @content;

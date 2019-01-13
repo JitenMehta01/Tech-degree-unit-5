@@ -2,7 +2,15 @@
   dislay:flex;
 }
 
-@each $theme, $color in $grid-buttons{
+
+@for $i from 2 through 12 {
+  .grid__col--#{$i}{
+
+&.theme__colors{
+  @if(map-get($grid-buttons,$i)!=null){
+  background-color: map-get($grid-buttons,$i);
+
+  @each $theme, $color in $grid-buttons{
   .grid__col--#{$theme}{
     background-color: $color;
     @include buttons($btn-width:100%,
@@ -12,3 +20,7 @@
     );
     }
   }
+}
+}
+}
+}
