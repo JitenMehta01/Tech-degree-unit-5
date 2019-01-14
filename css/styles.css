@@ -575,10 +575,7 @@ input[placeholder] {
   dislay: flex;
 }
 
-.grid__col--3.theme__colors {
-  background-color: #deb2ee;
-}
-.grid__col--3.theme__colors .grid__col--3 {
+.grid__col--3 {
   background-color: #deb2ee;
   display: block;
   color: #fff;
@@ -593,148 +590,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--3.theme__colors .grid__col--3:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--3.theme__colors .grid__col--4 {
-  background-color: #7ee6fd;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--3.theme__colors .grid__col--4:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--3.theme__colors .grid__col--5 {
-  background-color: #88d9a0;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--3.theme__colors .grid__col--5:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--3.theme__colors .grid__col--6 {
-  background-color: #3fabca;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--3.theme__colors .grid__col--6:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--3.theme__colors .grid__col--7 {
-  background-color: #ec9fa3;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--3.theme__colors .grid__col--7:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--3.theme__colors .grid__col--8 {
-  background-color: #fd9f85;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--3.theme__colors .grid__col--8:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--3.theme__colors .grid__col--12 {
-  background-color: #80e8d1;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--3.theme__colors .grid__col--12:hover {
+.grid__col--3:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--4.theme__colors {
-  background-color: #7ee6fd;
-}
-.grid__col--4.theme__colors .grid__col--3 {
-  background-color: #deb2ee;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--4.theme__colors .grid__col--3:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--4.theme__colors .grid__col--4 {
+.grid__col--4 {
   background-color: #7ee6fd;
   display: block;
   color: #fff;
@@ -749,148 +610,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--4.theme__colors .grid__col--4:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--4.theme__colors .grid__col--5 {
-  background-color: #88d9a0;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--4.theme__colors .grid__col--5:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--4.theme__colors .grid__col--6 {
-  background-color: #3fabca;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--4.theme__colors .grid__col--6:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--4.theme__colors .grid__col--7 {
-  background-color: #ec9fa3;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--4.theme__colors .grid__col--7:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--4.theme__colors .grid__col--8 {
-  background-color: #fd9f85;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--4.theme__colors .grid__col--8:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--4.theme__colors .grid__col--12 {
-  background-color: #80e8d1;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--4.theme__colors .grid__col--12:hover {
+.grid__col--4:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--5.theme__colors {
-  background-color: #88d9a0;
-}
-.grid__col--5.theme__colors .grid__col--3 {
-  background-color: #deb2ee;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--5.theme__colors .grid__col--3:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--5.theme__colors .grid__col--4 {
-  background-color: #7ee6fd;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--5.theme__colors .grid__col--4:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--5.theme__colors .grid__col--5 {
+.grid__col--5 {
   background-color: #88d9a0;
   display: block;
   color: #fff;
@@ -905,148 +630,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--5.theme__colors .grid__col--5:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--5.theme__colors .grid__col--6 {
-  background-color: #3fabca;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--5.theme__colors .grid__col--6:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--5.theme__colors .grid__col--7 {
-  background-color: #ec9fa3;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--5.theme__colors .grid__col--7:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--5.theme__colors .grid__col--8 {
-  background-color: #fd9f85;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--5.theme__colors .grid__col--8:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--5.theme__colors .grid__col--12 {
-  background-color: #80e8d1;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--5.theme__colors .grid__col--12:hover {
+.grid__col--5:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--6.theme__colors {
-  background-color: #3fabca;
-}
-.grid__col--6.theme__colors .grid__col--3 {
-  background-color: #deb2ee;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--6.theme__colors .grid__col--3:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--6.theme__colors .grid__col--4 {
-  background-color: #7ee6fd;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--6.theme__colors .grid__col--4:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--6.theme__colors .grid__col--5 {
-  background-color: #88d9a0;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--6.theme__colors .grid__col--5:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--6.theme__colors .grid__col--6 {
+.grid__col--6 {
   background-color: #3fabca;
   display: block;
   color: #fff;
@@ -1061,148 +650,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--6.theme__colors .grid__col--6:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--6.theme__colors .grid__col--7 {
-  background-color: #ec9fa3;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--6.theme__colors .grid__col--7:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--6.theme__colors .grid__col--8 {
-  background-color: #fd9f85;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--6.theme__colors .grid__col--8:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--6.theme__colors .grid__col--12 {
-  background-color: #80e8d1;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--6.theme__colors .grid__col--12:hover {
+.grid__col--6:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--7.theme__colors {
-  background-color: #ec9fa3;
-}
-.grid__col--7.theme__colors .grid__col--3 {
-  background-color: #deb2ee;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--7.theme__colors .grid__col--3:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--7.theme__colors .grid__col--4 {
-  background-color: #7ee6fd;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--7.theme__colors .grid__col--4:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--7.theme__colors .grid__col--5 {
-  background-color: #88d9a0;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--7.theme__colors .grid__col--5:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--7.theme__colors .grid__col--6 {
-  background-color: #3fabca;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--7.theme__colors .grid__col--6:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--7.theme__colors .grid__col--7 {
+.grid__col--7 {
   background-color: #ec9fa3;
   display: block;
   color: #fff;
@@ -1217,148 +670,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--7.theme__colors .grid__col--7:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--7.theme__colors .grid__col--8 {
-  background-color: #fd9f85;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--7.theme__colors .grid__col--8:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--7.theme__colors .grid__col--12 {
-  background-color: #80e8d1;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--7.theme__colors .grid__col--12:hover {
+.grid__col--7:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--8.theme__colors {
-  background-color: #fd9f85;
-}
-.grid__col--8.theme__colors .grid__col--3 {
-  background-color: #deb2ee;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--8.theme__colors .grid__col--3:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--8.theme__colors .grid__col--4 {
-  background-color: #7ee6fd;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--8.theme__colors .grid__col--4:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--8.theme__colors .grid__col--5 {
-  background-color: #88d9a0;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--8.theme__colors .grid__col--5:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--8.theme__colors .grid__col--6 {
-  background-color: #3fabca;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--8.theme__colors .grid__col--6:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--8.theme__colors .grid__col--7 {
-  background-color: #ec9fa3;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--8.theme__colors .grid__col--7:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--8.theme__colors .grid__col--8 {
+.grid__col--8 {
   background-color: #fd9f85;
   display: block;
   color: #fff;
@@ -1373,148 +690,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--8.theme__colors .grid__col--8:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--8.theme__colors .grid__col--12 {
-  background-color: #80e8d1;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--8.theme__colors .grid__col--12:hover {
+.grid__col--8:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--12.theme__colors {
-  background-color: #80e8d1;
-}
-.grid__col--12.theme__colors .grid__col--3 {
-  background-color: #deb2ee;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--12.theme__colors .grid__col--3:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--12.theme__colors .grid__col--4 {
-  background-color: #7ee6fd;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--12.theme__colors .grid__col--4:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--12.theme__colors .grid__col--5 {
-  background-color: #88d9a0;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--12.theme__colors .grid__col--5:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--12.theme__colors .grid__col--6 {
-  background-color: #3fabca;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--12.theme__colors .grid__col--6:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--12.theme__colors .grid__col--7 {
-  background-color: #ec9fa3;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--12.theme__colors .grid__col--7:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--12.theme__colors .grid__col--8 {
-  background-color: #fd9f85;
-  display: block;
-  color: #fff;
-  width: 100%;
-  font-size: 1.125em;
-  font-weight: 300;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.75em;
-  margin-bottom: 1.25em;
-  border: none;
-  text-transform: uppercase;
-}
-.grid__col--12.theme__colors .grid__col--8:hover {
-  font-weight: 600;
-  color: #fff;
-}
-.grid__col--12.theme__colors .grid__col--12 {
+.grid__col--12 {
   background-color: #80e8d1;
   display: block;
   color: #fff;
@@ -1529,7 +710,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--12.theme__colors .grid__col--12:hover {
+.grid__col--12:hover {
   font-weight: 600;
   color: #fff;
 }
