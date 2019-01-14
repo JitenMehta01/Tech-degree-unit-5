@@ -575,7 +575,7 @@ input[placeholder] {
   dislay: flex;
 }
 
-.grid__col--3 {
+.theme__colors.grid__col--3 {
   background-color: #deb2ee;
   display: block;
   color: #fff;
@@ -590,12 +590,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--3:hover {
+.theme__colors.grid__col--3:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--4 {
+.theme__colors.grid__col--4 {
   background-color: #7ee6fd;
   display: block;
   color: #fff;
@@ -610,12 +610,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--4:hover {
+.theme__colors.grid__col--4:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--5 {
+.theme__colors.grid__col--5 {
   background-color: #88d9a0;
   display: block;
   color: #fff;
@@ -630,12 +630,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--5:hover {
+.theme__colors.grid__col--5:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--6 {
+.theme__colors.grid__col--6 {
   background-color: #3fabca;
   display: block;
   color: #fff;
@@ -650,12 +650,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--6:hover {
+.theme__colors.grid__col--6:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--7 {
+.theme__colors.grid__col--7 {
   background-color: #ec9fa3;
   display: block;
   color: #fff;
@@ -670,12 +670,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--7:hover {
+.theme__colors.grid__col--7:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--8 {
+.theme__colors.grid__col--8 {
   background-color: #fd9f85;
   display: block;
   color: #fff;
@@ -690,12 +690,12 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--8:hover {
+.theme__colors.grid__col--8:hover {
   font-weight: 600;
   color: #fff;
 }
 
-.grid__col--12 {
+.theme__colors.grid__col--12 {
   background-color: #80e8d1;
   display: block;
   color: #fff;
@@ -710,7 +710,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-.grid__col--12:hover {
+.theme__colors.grid__col--12:hover {
   font-weight: 600;
   color: #fff;
 }

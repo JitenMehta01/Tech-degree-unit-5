@@ -3,7 +3,7 @@
 }
 
   @each $theme, $color in $grid-buttons{
-  .grid__col--#{$theme}{
+  .theme__colors.grid__col--#{$theme}{
     background-color: $color;
     @include buttons($btn-width:100%,
     $btn-text-color:$white,
