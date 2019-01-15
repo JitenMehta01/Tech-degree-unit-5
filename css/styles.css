@@ -571,15 +571,63 @@ input[placeholder] {
   font-weight: 600;
 }
 
-.grid__row {
-  dislay: flex;
+@media (min-width: 768px) {
+  .grid__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /** Flexbox mixin **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+    /** loops through each iteration of grid--col **/
+  }
+  .grid__row .grid__col--2 {
+    width: 15%;
+  }
+  .grid__row .grid__col--3 {
+    width: 23.5%;
+  }
+  .grid__row .grid__col--4 {
+    width: 32%;
+  }
+  .grid__row .grid__col--5 {
+    width: 40.5%;
+  }
+  .grid__row .grid__col--6 {
+    width: 49%;
+  }
+  .grid__row .grid__col--7 {
+    width: 57.5%;
+  }
+  .grid__row .grid__col--8 {
+    width: 66%;
+  }
+  .grid__row .grid__col--9 {
+    width: 74.5%;
+  }
+  .grid__row .grid__col--10 {
+    width: 83%;
+  }
+  .grid__row .grid__col--11 {
+    width: 91.5%;
+  }
+  .grid__row .grid__col--12 {
+    width: 100%;
+  }
 }
 
 .theme__colors.grid__col--3 {
   background-color: #deb2ee;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
@@ -599,7 +647,6 @@ input[placeholder] {
   background-color: #7ee6fd;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
@@ -619,7 +666,6 @@ input[placeholder] {
   background-color: #88d9a0;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
@@ -639,7 +685,6 @@ input[placeholder] {
   background-color: #3fabca;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
@@ -659,7 +704,6 @@ input[placeholder] {
   background-color: #ec9fa3;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
@@ -679,7 +723,6 @@ input[placeholder] {
   background-color: #fd9f85;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
@@ -699,7 +742,6 @@ input[placeholder] {
   background-color: #80e8d1;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
@@ -714,5 +756,9 @@ input[placeholder] {
   font-weight: 600;
   color: #fff;
 }
+
+/****************************************************************************
+                          Responsive Grid system
+*****************************************************************************/
 
 /*# sourceMappingURL=styles.css.map */
