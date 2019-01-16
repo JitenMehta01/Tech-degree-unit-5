@@ -18,14 +18,14 @@
   list-style: none;
   padding:0;
   @include mq ('tablet'){
-  @include flexy ($dir:row, $just:space-between);
+  @include flexy ($dir:row, $just:space-between, $disp:flex);
   }
   a {
     @include buttons($btn-text-color:$color-text);
       &:hover{
         background-color:$color-secondary;
       }
-    } 
+    }
 }
 
 .grid__col--3:first-of-type{

@@ -4,10 +4,9 @@
  @each $theme, $color in $ui-buttons{
    .btn--#{$theme}{
      background-color: $color;
-     @include buttons($btn-width:100%,
-     $btn-text-color:$white,
+     @include buttons($btn-text-color:$white,
      $btn-margin: em(20px),
      $btn-uppercase:uppercase
      );
-     }
-   }
+}
+}

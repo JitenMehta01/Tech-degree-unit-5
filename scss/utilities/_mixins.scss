@@ -2,7 +2,6 @@
 
 @mixin buttons(
 $btn-text-color:null,
-$btn-width:null,
 $btn-margin:null,
 $btn-uppercase:null,
 )
@@ -11,13 +10,12 @@ $btn-uppercase:null,
 
   display:block;
   color:$btn-text-color;
-  width:$btn-width;
   font-size: em(18px);
   font-weight:$font-weight--light;
   border-radius:5px;
   text-align: center;
   text-decoration: none;
-  padding:em(12px);
+  padding:1% 5%;
   margin-bottom:$btn-margin;
   border:none;
   text-transform: $btn-uppercase;
@@ -111,6 +109,7 @@ border-bottom-left-radius: 5px;
   padding: 10px 0;
   margin-bottom:em(35px);
 }
+
 
 
 // media queries

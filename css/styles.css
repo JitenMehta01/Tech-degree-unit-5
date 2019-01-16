@@ -362,6 +362,7 @@ p {
 }
 @media (min-width: 768px) {
   .nav {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -374,7 +375,7 @@ p {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   border: none;
 }
 .nav a:hover {
@@ -401,13 +402,12 @@ p {
   background-color: #51ddfc;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -421,13 +421,12 @@ p {
   background-color: #63cc82;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -441,13 +440,12 @@ p {
   background-color: #e4757a;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -461,13 +459,12 @@ p {
   background-color: #fd7856;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -481,13 +478,12 @@ p {
   background-color: #927bc1;
   display: block;
   color: #fff;
-  width: 100%;
   font-size: 1.125em;
   font-weight: 300;
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -591,36 +587,69 @@ input[placeholder] {
   }
   .grid__row .grid__col--2 {
     width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--3 {
     width: 23.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--4 {
     width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--5 {
     width: 40.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--6 {
     width: 49%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--7 {
     width: 57.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--8 {
     width: 66%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--9 {
     width: 74.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--10 {
     width: 83%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--11 {
     width: 91.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
   .grid__row .grid__col--12 {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }
 
@@ -633,7 +662,7 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -652,7 +681,7 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -671,7 +700,7 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -690,7 +719,7 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -709,7 +738,7 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -728,7 +757,7 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -747,7 +776,7 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 0.75em;
+  padding: 1% 5%;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
@@ -756,9 +785,5 @@ input[placeholder] {
   font-weight: 600;
   color: #fff;
 }
-
-/****************************************************************************
-                          Responsive Grid system
-*****************************************************************************/
 
 /*# sourceMappingURL=styles.css.map */
