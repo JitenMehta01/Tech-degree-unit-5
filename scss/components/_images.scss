@@ -5,3 +5,7 @@
 .img--frame{
   @include images ($img-brdr:1px solid $color-text,$img-padding:10px)
 }
+
+.grid__col--3:first-of-type{
+  @include flexy ($alself:center);
+}

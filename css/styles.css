@@ -355,6 +355,10 @@ p {
   padding-bottom: 2em;
 }
 
+nav {
+  width: 100%;
+}
+
 .nav {
   margin-top: 1.5em;
   list-style: none;
@@ -364,7 +368,7 @@ p {
   .nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 .nav a {
@@ -375,8 +379,18 @@ p {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 0.5em 1em;
   border: none;
+}
+@media (min-width: 769px) {
+  .nav a {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .nav a {
+    width: 100%;
+  }
 }
 .nav a:hover {
   font-weight: 600;
@@ -384,10 +398,7 @@ p {
 }
 .nav a:hover {
   background-color: #58e1c1;
-}
-
-.grid__col--3:first-of-type {
-  align-self: center;
+  padding: 0.625em;
 }
 
 @media (min-width: 1024px) {
@@ -407,10 +418,20 @@ p {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .btn--default {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .btn--default {
+    width: 100%;
+  }
 }
 .btn--default:hover {
   font-weight: 600;
@@ -426,10 +447,20 @@ p {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .btn--success {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .btn--success {
+    width: 100%;
+  }
 }
 .btn--success:hover {
   font-weight: 600;
@@ -445,10 +476,20 @@ p {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .btn--error {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .btn--error {
+    width: 100%;
+  }
 }
 .btn--error:hover {
   font-weight: 600;
@@ -464,10 +505,20 @@ p {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .btn--warning {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .btn--warning {
+    width: 100%;
+  }
 }
 .btn--warning:hover {
   font-weight: 600;
@@ -483,10 +534,20 @@ p {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .btn--info {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .btn--info {
+    width: 100%;
+  }
 }
 .btn--info:hover {
   font-weight: 600;
@@ -547,6 +608,10 @@ p {
   border: 1px solid #888;
   padding: 10px;
   width: 100%;
+}
+
+.grid__col--3:first-of-type {
+  align-self: center;
 }
 
 .form__label--hidden {
@@ -662,10 +727,20 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .theme__colors.grid__col--3 {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .theme__colors.grid__col--3 {
+    width: 100%;
+  }
 }
 .theme__colors.grid__col--3:hover {
   font-weight: 600;
@@ -681,10 +756,20 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .theme__colors.grid__col--4 {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .theme__colors.grid__col--4 {
+    width: 100%;
+  }
 }
 .theme__colors.grid__col--4:hover {
   font-weight: 600;
@@ -700,10 +785,20 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .theme__colors.grid__col--5 {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .theme__colors.grid__col--5 {
+    width: 100%;
+  }
 }
 .theme__colors.grid__col--5:hover {
   font-weight: 600;
@@ -719,10 +814,20 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .theme__colors.grid__col--6 {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .theme__colors.grid__col--6 {
+    width: 100%;
+  }
 }
 .theme__colors.grid__col--6:hover {
   font-weight: 600;
@@ -738,10 +843,20 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .theme__colors.grid__col--7 {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .theme__colors.grid__col--7 {
+    width: 100%;
+  }
 }
 .theme__colors.grid__col--7:hover {
   font-weight: 600;
@@ -757,10 +872,20 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .theme__colors.grid__col--8 {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .theme__colors.grid__col--8 {
+    width: 100%;
+  }
 }
 .theme__colors.grid__col--8:hover {
   font-weight: 600;
@@ -776,10 +901,20 @@ input[placeholder] {
   border-radius: 5px;
   text-align: center;
   text-decoration: none;
-  padding: 1% 5%;
+  padding: 1em 2em;
   margin-bottom: 1.25em;
   border: none;
   text-transform: uppercase;
+}
+@media (min-width: 769px) {
+  .theme__colors.grid__col--12 {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .theme__colors.grid__col--12 {
+    width: 100%;
+  }
 }
 .theme__colors.grid__col--12:hover {
   font-weight: 600;

@@ -4,21 +4,27 @@
 $btn-text-color:null,
 $btn-margin:null,
 $btn-uppercase:null,
+$padding:null
 )
 
 {
-
   display:block;
+  @media (min-width:769px){
+    display:initial;
+  }
   color:$btn-text-color;
   font-size: em(18px);
   font-weight:$font-weight--light;
   border-radius:5px;
   text-align: center;
   text-decoration: none;
-  padding:1% 5%;
+  padding:$padding;
   margin-bottom:$btn-margin;
   border:none;
   text-transform: $btn-uppercase;
+  @media (max-width:$breakpoint-tablet){
+    width:100%;
+  }
   @content;
   &:hover{
     font-weight:$font-weight--bold;
@@ -112,9 +118,26 @@ border-bottom-left-radius: 5px;
 
 
 
-// media queries
+// media queries for navigation only
 
 @mixin mq ($breakpoint){
+
+  @if $breakpoint == 'tablet'{
+    @media (min-width:$breakpoint-tablet){
+      @content;
+  }
+ }
+
+  @else if $breakpoint == 'desktop'{
+    @media (min-width:$breakpoint-desktop){
+      @content;
+    }
+  }
+}
+
+// media query for Grid column
+
+@mixin mq-grid ($breakpoint){
 
   @if $breakpoint == 'tablet'{
     @media (min-width:$breakpoint-tablet){

@@ -6,7 +6,9 @@
      background-color: $color;
      @include buttons($btn-text-color:$white,
      $btn-margin: em(20px),
-     $btn-uppercase:uppercase
+     $btn-uppercase:uppercase,
+     $padding:1em 2em
      );
+
 }
 }
