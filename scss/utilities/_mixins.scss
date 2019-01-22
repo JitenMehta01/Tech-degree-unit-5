@@ -1,10 +1,15 @@
+// ======================================
+//  Mixins
+// ======================================
+
+
 // buttons
 
 @mixin buttons(
 $btn-text-color:null,
 $btn-margin:null,
 $btn-uppercase:null,
-$padding:null
+$padding:null,
 )
 
 {
@@ -22,9 +27,6 @@ $padding:null
   margin-bottom:$btn-margin;
   border:none;
   text-transform: $btn-uppercase;
-  @media (max-width:$breakpoint-tablet){
-    width:100%;
-  }
   @content;
   &:hover{
     font-weight:$font-weight--bold;
@@ -128,22 +130,14 @@ border-bottom-left-radius: 5px;
   }
  }
 
-  @else if $breakpoint == 'desktop'{
-    @media (min-width:$breakpoint-desktop){
-      @content;
-    }
-  }
-}
-
-// media query for Grid column
-
-@mixin mq-grid ($breakpoint){
-
-  @if $breakpoint == 'tablet'{
-    @media (min-width:$breakpoint-tablet){
-      @content;
-  }
+ @else if $breakpoint == 'tablet-max'{
+   @media (max-width:$breakpoint-tablet-max){
+     @content;
+   }
  }
+
+
+
 
   @else if $breakpoint == 'desktop'{
     @media (min-width:$breakpoint-desktop){
