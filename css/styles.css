@@ -382,7 +382,7 @@ nav {
   padding: 0.5em 1em;
   border: none;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .nav a {
     display: initial;
   }
@@ -407,6 +407,7 @@ nav {
 .btn--default {
   background-color: #51ddfc;
   display: block;
+  width: 100%;
   color: #fff;
   font-size: 1.125em;
   font-weight: 300;
@@ -418,7 +419,7 @@ nav {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--default {
     display: initial;
   }
@@ -427,15 +428,16 @@ nav {
   font-weight: 600;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .btn--default {
-    width: 100%;
+    width: initial;
   }
 }
 
 .btn--success {
   background-color: #63cc82;
   display: block;
+  width: 100%;
   color: #fff;
   font-size: 1.125em;
   font-weight: 300;
@@ -447,7 +449,7 @@ nav {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--success {
     display: initial;
   }
@@ -456,15 +458,16 @@ nav {
   font-weight: 600;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .btn--success {
-    width: 100%;
+    width: initial;
   }
 }
 
 .btn--error {
   background-color: #e4757a;
   display: block;
+  width: 100%;
   color: #fff;
   font-size: 1.125em;
   font-weight: 300;
@@ -476,7 +479,7 @@ nav {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--error {
     display: initial;
   }
@@ -485,15 +488,16 @@ nav {
   font-weight: 600;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .btn--error {
-    width: 100%;
+    width: initial;
   }
 }
 
 .btn--warning {
   background-color: #fd7856;
   display: block;
+  width: 100%;
   color: #fff;
   font-size: 1.125em;
   font-weight: 300;
@@ -505,7 +509,7 @@ nav {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--warning {
     display: initial;
   }
@@ -514,15 +518,16 @@ nav {
   font-weight: 600;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .btn--warning {
-    width: 100%;
+    width: initial;
   }
 }
 
 .btn--info {
   background-color: #927bc1;
   display: block;
+  width: 100%;
   color: #fff;
   font-size: 1.125em;
   font-weight: 300;
@@ -534,7 +539,7 @@ nav {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .btn--info {
     display: initial;
   }
@@ -543,9 +548,9 @@ nav {
   font-weight: 600;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .btn--info {
-    width: 100%;
+    width: initial;
   }
 }
 
@@ -721,7 +726,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .theme__colors.grid__col--3 {
     display: initial;
   }
@@ -745,7 +750,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .theme__colors.grid__col--4 {
     display: initial;
   }
@@ -769,7 +774,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .theme__colors.grid__col--5 {
     display: initial;
   }
@@ -793,7 +798,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .theme__colors.grid__col--6 {
     display: initial;
   }
@@ -817,7 +822,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .theme__colors.grid__col--7 {
     display: initial;
   }
@@ -841,7 +846,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .theme__colors.grid__col--8 {
     display: initial;
   }
@@ -865,7 +870,7 @@ input[placeholder] {
   border: none;
   text-transform: uppercase;
 }
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .theme__colors.grid__col--12 {
     display: initial;
   }

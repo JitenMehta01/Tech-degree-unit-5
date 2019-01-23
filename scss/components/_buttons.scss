@@ -9,10 +9,11 @@
      @include buttons($btn-text-color:$white,
      $btn-margin: em(20px),
      $btn-uppercase:uppercase,
-     $padding:1em 2em
+     $padding:1em 2em,
+     $width:100%
      );
-     @include mq ('tablet-max'){
-       width:100%;
+     @include mq ('tablet'){
+       width:initial;
      }
 
 }

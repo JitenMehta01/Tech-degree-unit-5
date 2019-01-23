@@ -10,11 +10,13 @@ $btn-text-color:null,
 $btn-margin:null,
 $btn-uppercase:null,
 $padding:null,
+$width:null
 )
 
 {
   display:block;
-  @media (min-width:769px){
+  width:$width;
+  @include mq ('tablet'){
     display:initial;
   }
   color:$btn-text-color;
