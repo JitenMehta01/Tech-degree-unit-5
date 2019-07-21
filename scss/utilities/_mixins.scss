@@ -3,39 +3,15 @@
 // ======================================
 
 
-// buttons
-
-@mixin buttons(
-$btn-text-color:null,
-$btn-margin:null,
-$btn-uppercase:null,
-$padding:null,
-$width:null
-)
-
-{
-  display:block;
-  width:$width;
-  @include mq ('tablet'){
-    display:initial;
-  }
-  color:$btn-text-color;
-  font-size: em(18px);
-  font-weight:$font-weight--light;
+// Search input
+@mixin search_input{
+  width:100%;
+  text-align:center;
+  padding:1em;
   border-radius:5px;
-  text-align: center;
-  text-decoration: none;
-  padding:$padding;
-  margin-bottom:$btn-margin;
-  border:none;
-  text-transform: $btn-uppercase;
-  @content;
-  &:hover{
-    font-weight:$font-weight--bold;
-    color:$white;
-    }
+  border-color:$border-color;
+  border-style:solid;
 }
-
 // responsive flex container
 
 @mixin flexy (
@@ -108,21 +84,9 @@ border-bottom-left-radius: 5px;
 }
 
 
-// form
-
-@mixin form-input{
-  width:100%;
-  border-top:0;
-  border-left:0;
-  border-right:0;
-  border-bottom: 5px solid $color-secondary;
-  padding: 10px 0;
-  margin-bottom:em(35px);
-}
 
 
-
-// media queries for navigation only
+// media queries for search bar only
 
 @mixin mq ($breakpoint){
 
@@ -131,15 +95,6 @@ border-bottom-left-radius: 5px;
       @content;
   }
  }
-
- @else if $breakpoint == 'tablet-max'{
-   @media (max-width:$breakpoint-tablet-max){
-     @content;
-   }
- }
-
-
-
 
   @else if $breakpoint == 'desktop'{
     @media (min-width:$breakpoint-desktop){

@@ -1,0 +1,21 @@
+// ======================================
+//  Search Bar
+// ======================================
+
+
+
+// Search bar container
+.search_bar{
+  @include flexy ($disp:flex,$dir:row,$just:center);
+    padding-top:3em;
+    width:100%;
+}
+
+// searh bar
+
+#image_search{
+@include search_input;
+@include mq ('tablet'){
+width:50%;
+}
+}

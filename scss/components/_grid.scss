@@ -23,13 +23,15 @@
   }
 }
 
-  @each $theme, $color in $grid-buttons{ // loops through each column and gives it a background colour
-  .theme__colors.grid__col--#{$theme}{
-    background-color: $color;
-    @include buttons($btn-text-color:$white,
-    $btn-margin: em(20px),
-    $btn-uppercase:uppercase,
-    $padding:1em 2em
-    );
-    }
+
+// ======================================
+//  Loop for images
+// ======================================
+
+  @each $image in $image_grid{
+  .image-#{$image} {
+    background-image:url('../images/image-#{$image}.jpg');
+    width:100%;
+    height:100%;
+  }
   }

@@ -6,27 +6,27 @@
 
 $white:#fff;
 
-$color-text:#888;
+$color-text:#000;
 $color-secondary:#58e1c1; // teal
-
+$border-color: #C0C0C0;
 // ================================================================
 
-// buttons
-$default:#51ddfc; // teal
-$success:#63cc82; // light green
-$error:#e4757a; //  pink
-$warning:#fd7856; // orange
-$info:#927bc1; // purple
-
-// UI buttons MAPS
-
-$ui-buttons:(
-default:  $default,
-success:  $success,
-error:    $error,
-warning:  $warning,
-info:     $info
+//  Image list for loop
+$image_grid:(
+'one',
+'two',
+'three',
+'four',
+'five',
+'six',
+'seven',
+'eight',
+'nine',
+'ten',
+'eleven',
+'twelve'
 );
+
 
 // ================================================================
 
@@ -89,4 +89,3 @@ $base--line--height: 24px;
 
 $breakpoint-tablet: 768px;
 $breakpoint-desktop:1024px;
-$breakpoint-tablet-max:767px;
