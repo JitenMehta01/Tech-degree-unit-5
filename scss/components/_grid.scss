@@ -6,32 +6,32 @@
 
 .grid__row{
   @include mq ('tablet') /** Media query mixin for tablet **/{
-
-    @include flexy ($dir:row, $just:space-around, $disp:flex); /** Flexbox mixin **/
+    padding:5px;
+    @include flexy ($dir:row, $just:space-around, $disp:flex, $wrap:wrap); /** Flexbox mixin **/
 
     @for $i from 2 through $g-col-count { /** loops through each iteration of grid--col **/
       @if $i !=9{ // omits column 9
       $context: g-context($g-col-width, $g-col-count ,$g-gutter-width);
       $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
 
-        .grid__col--#{$i} {
-          width: percentage($target / $context);
-             @include flexy($disp:flex, $dir:row, $just:space-around);
-      }
     }
     }
   }
 }
 
+.grid__row{
+  @include flexy ($dir:row, $just:space-around, $disp:flex, $wrap:wrap);
+  margin: 50px 0;
+}
+
 
 // ======================================
-//  Loop for images
+//  Loop for image
 // ======================================
 
   @each $image in $image_grid{
   .image-#{$image} {
     background-image:url('../images/image-#{$image}.jpg');
-    width:100%;
-    height:100%;
+    width:22.5%;
   }
   }

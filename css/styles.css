@@ -416,6 +416,9 @@ p {
   border: 1px solid;
   padding: 10px;
   width: 60%;
+  padding: 100px;
+  background-size: cover;
+  margin: 10px 0;
 }
 
 .images {
@@ -424,8 +427,10 @@ p {
 
 @media (min-width: 768px) {
   .grid__row {
+    padding: 5px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     /** Flexbox mixin **/
     /** loops through each iteration of grid--col **/
@@ -440,138 +445,74 @@ p {
     /** loops through each iteration of grid--col **/
     /** loops through each iteration of grid--col **/
   }
-  .grid__row .grid__col--2 {
-    width: 15%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--3 {
-    width: 23.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--4 {
-    width: 32%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--5 {
-    width: 40.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--6 {
-    width: 49%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--7 {
-    width: 57.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--8 {
-    width: 66%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--10 {
-    width: 83%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--11 {
-    width: 91.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .grid__row .grid__col--12 {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+}
+
+.grid__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0;
 }
 
 .image-one {
   background-image: url("../images/image-one.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-two {
   background-image: url("../images/image-two.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-three {
   background-image: url("../images/image-three.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-four {
   background-image: url("../images/image-four.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-five {
   background-image: url("../images/image-five.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-six {
   background-image: url("../images/image-six.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-seven {
   background-image: url("../images/image-seven.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-eight {
   background-image: url("../images/image-eight.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-nine {
   background-image: url("../images/image-nine.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-ten {
   background-image: url("../images/image-ten.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-eleven {
   background-image: url("../images/image-eleven.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 .image-twelve {
   background-image: url("../images/image-twelve.jpg");
-  width: 100%;
-  height: 100%;
+  width: 22.5%;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -5,6 +5,10 @@
 
 .images{
   @include images ($img-width:60%, $img-brdr:1px solid, $img-padding:10px);
+  padding:100px;
+  background-size:cover;
+  margin:10px 0;
+
 }
 
 
