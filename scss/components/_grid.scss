@@ -6,8 +6,9 @@
 
 .grid__row{
   @include mq ('tablet') /** Media query mixin for tablet **/{
+    @include flexy ($dir:row, $just:space-evenly, $disp:flex, $wrap:wrap);
+    margin: 50px 0; /** Flexbox mixin **/
     padding:5px;
-    @include flexy ($dir:row, $just:space-around, $disp:flex, $wrap:wrap); /** Flexbox mixin **/
 
     @for $i from 2 through $g-col-count { /** loops through each iteration of grid--col **/
       @if $i !=9{ // omits column 9
@@ -19,10 +20,6 @@
   }
 }
 
-.grid__row{
-  @include flexy ($dir:row, $just:space-around, $disp:flex, $wrap:wrap);
-  margin: 50px 0;
-}
 
 
 // ======================================
