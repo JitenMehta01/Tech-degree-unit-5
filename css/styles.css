@@ -448,6 +448,14 @@ p {
   }
 }
 
+.grid__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
 .image-one {
   background-image: url("../images/image-one.jpg");
   width: 22.5%;

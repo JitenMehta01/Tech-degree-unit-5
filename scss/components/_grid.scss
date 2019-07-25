@@ -20,6 +20,11 @@
   }
 }
 
+.grid__row{
+  @include flexy ($dir:row, $just:space-around, $disp:flex, $wrap:wrap);
+  margin: 50px 0;
+}
+
 
 
 // ======================================

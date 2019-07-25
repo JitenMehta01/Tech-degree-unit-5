@@ -4,9 +4,23 @@ $('#gallery2').rebox({ selector: 'a' });
 
 // search filter
 
-$('#image_search').on( 'keyup', function(){
-      const search_value = $(this).val().toLowerCase();
-      $('#gallery2 a[title]').filter(function(){
-        $(this).toggle($(this).text().toLowerCase().indexOf(search_value) > -1)
-      })
-})
+
+$('#image_search').on('keyup', function() {
+  let $search_value = $(this)
+    .val()
+    .toLowerCase();
+
+  let $imageList = $('#gallery2 a');
+
+  $imageList.each(function(i, image) {
+    let $caption = $(image)
+      .attr('title')
+      .toLowerCase();
+
+    if ($caption.includes($search_value)) {
+      $(image).show();
+    } else {
+      $(image).hide();
+    }
+  });
+});
