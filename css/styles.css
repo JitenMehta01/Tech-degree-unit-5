@@ -425,6 +425,10 @@ p {
   align-self: center;
 }
 
+.grid__row {
+   justify-content: space-between;
+}
+
 @media (min-width: 768px) {
   .grid__row {
     display: flex;
